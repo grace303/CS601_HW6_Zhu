@@ -6,15 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changing Age</title>
-    <!-- This is a development version of Vue.js! -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="/main.js" type="module"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div id="app"></div>
+    <section id="app">
+        <section v-for="i in 4">
+            <img :src="getImgUrl(i)" alt="Dodo">
+        </section>
+    </section>
 </body>
 
+<!--Include Vue-->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="main.js"></script>
 
 </html>

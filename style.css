@@ -1,0 +1,16 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
+#app section {
+  width: 20%;
+  padding: 0 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: inline;
+}
