@@ -16,4 +16,4 @@ This is homework 6, which is Vue.js assignment.
 1. Open index.html using your browser.
 2. Hover the image to see the effect.
 
-\*You can also click on the github hosting url https://grace303.github.io/CS601_HW5_Zhu/ to try it.
+\*You can also click on the github hosting url https://grace303.github.io/CS601_HW6_Zhu/ to try it.
