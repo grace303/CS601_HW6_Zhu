@@ -1,16 +1,50 @@
 body {
   margin: auto;
   text-align: center;
+  background-color: #f7b0be;
 }
 
 #app section {
-  width: 20%;
-  padding: 0 10px;
+  width: 22%;
+  margin: 0 10px;
   display: inline-block;
   text-align: center;
+  vertical-align: top;
 }
 
 img {
-  width: 100%;
   display: inline;
+  object-fit: cover;
+  width: 300px;
+  height: 500px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#youngest {
+  display: none;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #808080;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1300px) {
+  #app section {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  #app section {
+    width: 100%;
+    margin-top: 10px;
+  }
 }

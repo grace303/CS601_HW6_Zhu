@@ -11,9 +11,15 @@
 </head>
 
 <body>
+
+    <h1>Dodo is growing up!</h1>
+
     <section id="app">
         <section v-for="i in 4">
-            <img :src="getImgUrl(i)" alt="Dodo">
+            <img :src="getImgUrl(i)" alt="Dodo" @mouseover="hoverOver(i)" @mouseleave="hoverLeave(i)">
+            <div v-if="i==1" id="youngest">
+                <h2 v-if="i==1">I am the youngest Dodo!</h2>
+            </div>
         </section>
     </section>
 </body>
